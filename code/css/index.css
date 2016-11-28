@@ -1,0 +1,140 @@
+html, body{
+	border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Ovo, serif;
+    font-size: 0.9em;
+}
+
+h1 {
+    font-family: Muli, sans-serif;
+    text-align: center;
+}
+
+#top > img {
+    width: 100%;
+}
+
+#container {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+.nav_span {
+    margin-left: 4em;
+}
+
+#nav_bar {
+    background-color: #6cc551;
+    font-size: 1.25em;
+    height: 2em;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    text-align: center;
+    width: 80%;
+}
+
+#info { 
+    margin-top: 2em;
+    margin-bottom: 0em;
+    margin-right: auto;
+    margin-left: auto;
+}
+#info p{
+    width: 80%;
+    text-align: justify;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 1em;
+}
+
+#images {
+    margin-top: 2em;
+    margin-bottom: 0em;
+    margin-right: auto;
+    margin-left: 10em;}
+
+#images > img {
+    display: inline-block;
+    width: 400px;
+    height: 240px;
+}
+
+
+footer {
+  background-color: #CECECE;
+  color: white;
+  display: block;
+  font-size: 10px;
+  margin: 10px auto 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+    #top > img {
+        max-width: 1200px;
+    }
+    .nav_span {
+        width: ;
+    }
+    #info {
+        width: 100%;
+    }
+    
+    #images > img {
+        min-width: 200px;
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    #top > img {
+        max-width: 768px;
+    }
+
+    #container {
+        width: 80%;
+    }
+    #nav_bar { 
+        max-width: 80%;
+    }
+    #info {
+        max-width: 80%;
+    }
+    #images > img {
+        min-width: 128px;
+        max-width: 256px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    #top > img {
+        max-width: 480px;
+    }
+    #nav_bar {
+        max-width: 90%;
+    }
+    #info {
+        max-width: 90%;
+    }
+
+    #images {
+        display: none;
+    }
+}
+
