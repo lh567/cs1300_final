@@ -83,7 +83,7 @@ footer {
   width: 80%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+/*@media screen and (min-width: 768px) and (max-width: 1200px) {
 
     #top > img {
         max-width: 1200px;
@@ -136,5 +136,5 @@ footer {
     #images {
         display: none;
     }
-}
+}*/
 
